@@ -1,13 +1,14 @@
+#!/usr/bin/env bash
 
-nmcli device wifi connect "Name" password "password"
+cd /tmp
 
 git clone https://aur.archlinux.org/yay.git
 
 cd yay
 
-makepkg -si
+makepkg -si --noconfirm
 
-yay -Syu
+yay -Syu --noconfirm
 
 yay -S fish --noconfirm
 

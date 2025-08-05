@@ -1,1 +1,3 @@
-yay -S discord brave spotify spotify firefox
+#!/usr/bin/env bash
+
+yay -S discord spotify firefox --noconfirm
