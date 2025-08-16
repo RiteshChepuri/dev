@@ -20,6 +20,10 @@ cd
 
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
+tmux source ~/.tmux.conf
+
+~/.tmux/plugins/tpm/bin/install_plugins
+
 sudo systemctl enable bluetooth
 
 sudo systemctl start bluetooth
