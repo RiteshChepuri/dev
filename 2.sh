@@ -6,6 +6,8 @@ yay -S bat lsd waybar deno blueberry nvim stow fd ripgrep fzf yazi starship zoxi
 
 yay -S lua51-jsregexp cargo ruby composer php nodejs npm python-pip julia imagemagick jdk-openjdk --noconfirm
 
+cd
+
 git clone https://github.com/RiteshChepuri/dotfiles.git
 
 rm -rf ~/.config/fish
