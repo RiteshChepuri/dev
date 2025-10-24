@@ -4,7 +4,7 @@ yay -S wezterm zen-browser-bin bitwarden ghostty --noconfirm
 
 yay -S bat lsd waybar deno blueberry nvim stow fd ripgrep fzf yazi starship zoxide lazygit tmux git-delta dunst github-cli sesh-bin brightnessctl --noconfirm
 
-yay -S lua51-jsregexp cargo ruby composer php nodejs npm python-pip julia imagemagick jdk-openjdk --noconfirm
+yay -S lua51-jsregexp cargo ruby composer php nodejs npm python-pip julia imagemagick jdk-openjdk power-profiles-daemon --noconfirm
 
 cd
 
@@ -29,5 +29,9 @@ tmux source ~/.tmux.conf
 sudo systemctl enable bluetooth
 
 sudo systemctl start bluetooth
+
+sudo systemctl enable power-profiles-daemon.service
+
+sudo systemctl start power-profiles-daemon.service
 
 reboot
