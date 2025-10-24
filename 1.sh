@@ -25,7 +25,3 @@ echo "Installing fish shell"
 yay -S fish --noconfirm
 
 echo "$password" | chsh -s /usr/bin/fish
-
-echo "Rebooting system"
-
-reboot

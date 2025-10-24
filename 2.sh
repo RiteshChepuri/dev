@@ -33,5 +33,3 @@ sudo systemctl start bluetooth
 sudo systemctl enable power-profiles-daemon.service
 
 sudo systemctl start power-profiles-daemon.service
-
-reboot
