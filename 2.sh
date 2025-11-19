@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-yay -S wezterm zen-browser-bin bitwarden ghostty --noconfirm
+yay -S wezterm zen-browser-bin bitwarden --noconfirm
 
 yay -S bat gum lsd waybar deno blueberry nvim stow fd ripgrep fzf yazi starship zoxide lazygit tmux git-delta dunst github-cli sesh-bin brightnessctl ttf-jetbrains-mono ttf-jetbrains-mono-nerd --noconfirm
 
