@@ -4,7 +4,7 @@ yay -S wezterm zen-browser-bin bitwarden --noconfirm
 
 yay -S bat gum lsd waybar deno blueberry nvim stow fd ripgrep fzf yazi starship zoxide lazygit tmux git-delta dunst github-cli sesh-bin brightnessctl ttf-jetbrains-mono ttf-jetbrains-mono-nerd pamixer wl-clipboard --noconfirm
 
-yay -S lua51-jsregexp cargo ruby composer php nodejs npm python-pip julia imagemagick jdk-openjdk power-profiles-daemon --noconfirm
+yay -S lua51-jsregexp rustup ruby composer php nodejs npm python-pip julia imagemagick power-profiles-daemon --noconfirm
 
 cd
 
@@ -13,6 +13,8 @@ git clone https://github.com/RiteshChepuri/dotfiles.git
 rm -rf ~/.config/fish
 
 rm -rf ~/.config/hypr
+
+rustup default stable
 
 cd dotfiles
 
