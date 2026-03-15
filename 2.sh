@@ -2,9 +2,11 @@
 
 yay -S wezterm zen-browser-bin bitwarden --noconfirm
 
-yay -S bat gum lsd waybar deno blueberry nvim stow fd ripgrep fzf yazi starship zoxide lazygit tmux git-delta dunst github-cli sesh-bin brightnessctl ttf-jetbrains-mono ttf-jetbrains-mono-nerd pamixer wl-clipboard netpala cliphist hyprpaper --noconfirm
+yay -S bat gum lsd waybar deno blueberry nvim stow fd ripgrep fzf yazi starship zoxide lazygit tmux git-delta udiskie imagemagick --noconfirm
 
-yay -S lua51-jsregexp rustup ruby composer php nodejs npm python-pip julia imagemagick --noconfirm
+yay -S dunst github-cli sesh-bin brightnessctl ttf-jetbrains-mono ttf-jetbrains-mono-nerd pamixer wl-clipboard netpala cliphist hyprpaper --noconfirm
+
+yay -S lua51-jsregexp rustup ruby composer php nodejs npm python-pip julia --noconfirm
 
 cd
 
@@ -31,7 +33,3 @@ tmux source ~/.tmux.conf
 sudo systemctl enable bluetooth
 
 sudo systemctl start bluetooth
-
-sudo systemctl enable power-profiles-daemon.service
-
-sudo systemctl start power-profiles-daemon.service
