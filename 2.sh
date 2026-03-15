@@ -2,7 +2,7 @@
 
 yay -S wezterm zen-browser-bin bitwarden --noconfirm
 
-yay -S bat gum lsd waybar deno blueberry nvim stow fd ripgrep fzf yazi starship zoxide lazygit tmux git-delta udiskie imagemagick --noconfirm
+yay -S bat gum lsd waybar deno blueberry nvim stow fd ripgrep fzf yazi starship zoxide lazygit tmux git-delta udiskie imagemagick hyprshot wlogout hyprpicker --noconfirm
 
 yay -S dunst github-cli sesh-bin brightnessctl ttf-jetbrains-mono ttf-jetbrains-mono-nerd pamixer wl-clipboard netpala cliphist hyprpaper --noconfirm
 
